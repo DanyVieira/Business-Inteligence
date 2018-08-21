@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=URehBwynmtw
+Criar calendario
+1)obter dados- Consulta branco
+2)=#date(2016,1,1) - data de origem
+3)= List.Dates(Origem, Number.From(DateTime.LocalNow())-Number.From(Origem),#duration(1,0,0,0))- mostrar todas as datas
+4)para tabela-> ok
+5)Adicionar coluna-> data-> ano....data-> mes...data
+6)Adicionar coluna personalizada Ano Mes Class = [Ano]*100+[Mês]
+7)Clica na coluna data e depois adicionar coluna data -> nome do mes
+8) coluna personalizada Mes Abrev =Date.ToText([Data],"MMM")
+9)Concatenar coluna ano e mes abrev - colunas a partir de exemplo -> da selecao-> digitar jan-2016 e apertar tab -----ele ira replicar isso
